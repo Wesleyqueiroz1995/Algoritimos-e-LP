@@ -1,5 +1,5 @@
 cabecas = int(input('digite o numero de cabeças '))
 pes = int(input('digite o numero de pés '))
 numpatos = (2*cabecas-pes/2)
-numcoelhos = (cabecas+pes/2)
+numcoelhos = (-cabecas+pes/2)
 print(f' no cercado se encontram {numpatos} patos e {numcoelhos} coelhos')
